@@ -38,7 +38,7 @@ function drawHomeScore() {
 
 }
 function drawAwayScore() {
-  console.log(`The home team scored`);
+  console.log(`The away team scored`);
   const awayTeam = document.getElementById('away-score')
   awayTeam.innerText = away
 
